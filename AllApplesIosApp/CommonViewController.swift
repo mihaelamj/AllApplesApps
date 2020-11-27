@@ -34,8 +34,10 @@ class CommonViewController: AViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    let aView = view as! AView
-    aView.myColor = AColor.yellow
+    // INFO: Need to typecast our view to the appropriate `View` type, which will be resolved at compile time
+    if let aView = view as? AView {
+      aView.myColor = AColor.yellow
+    }
   }
 
   #if os(OSX)
