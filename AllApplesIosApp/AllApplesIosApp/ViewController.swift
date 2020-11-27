@@ -6,14 +6,23 @@
 //
 
 import UIKit
+import AllApples
 
 class ViewController: UIViewController {
 
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view.
+  // INFO: This step is necessary -
+  override func loadView() {
+    let aView = AView(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
+    aView.myColor = AColor.red
+    self.view = aView
+    debugPrint("View")
   }
 
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    let aView = view as! AView
+    aView.myColor = AColor.yellow
+  }
 
 }
 

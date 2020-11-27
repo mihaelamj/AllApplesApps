@@ -10,15 +10,14 @@
 		A90A46312571A04D00045CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A46302571A04D00045CA5 /* AppDelegate.swift */; };
 		A90A46332571A04D00045CA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A46322571A04D00045CA5 /* SceneDelegate.swift */; };
 		A90A46352571A04D00045CA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A46342571A04D00045CA5 /* ViewController.swift */; };
-		A90A46382571A04D00045CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90A46362571A04D00045CA5 /* Main.storyboard */; };
 		A90A463A2571A04F00045CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90A46392571A04F00045CA5 /* Assets.xcassets */; };
 		A90A463D2571A04F00045CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90A463B2571A04F00045CA5 /* LaunchScreen.storyboard */; };
-		A90A46472571A06900045CA5 /* AllApples in Frameworks */ = {isa = PBXBuildFile; productRef = A90A46462571A06900045CA5 /* AllApples */; };
 		A90A46502571A07F00045CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A464F2571A07F00045CA5 /* AppDelegate.swift */; };
 		A90A46522571A07F00045CA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A46512571A07F00045CA5 /* ViewController.swift */; };
 		A90A46542571A08200045CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90A46532571A08200045CA5 /* Assets.xcassets */; };
-		A90A46572571A08200045CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90A46552571A08200045CA5 /* Main.storyboard */; };
-		A90A46612571A09500045CA5 /* AllApples in Frameworks */ = {isa = PBXBuildFile; productRef = A90A46602571A09500045CA5 /* AllApples */; };
+		A90A467A2571A4D300045CA5 /* AllApples in Frameworks */ = {isa = PBXBuildFile; productRef = A90A46792571A4D300045CA5 /* AllApples */; };
+		A90A467E2571A50900045CA5 /* AllApples in Frameworks */ = {isa = PBXBuildFile; productRef = A90A467D2571A50900045CA5 /* AllApples */; };
+		A90A468E2571A66100045CA5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A468D2571A66100045CA5 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		A90A46302571A04D00045CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A90A46322571A04D00045CA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A90A46342571A04D00045CA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A90A46372571A04D00045CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A90A46392571A04F00045CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A90A463C2571A04F00045CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A90A463E2571A04F00045CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,9 +32,9 @@
 		A90A464F2571A07F00045CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A90A46512571A07F00045CA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A90A46532571A08200045CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A90A46562571A08200045CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A90A46582571A08200045CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A90A46592571A08200045CA5 /* AllApplesMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AllApplesMacApp.entitlements; sourceTree = "<group>"; };
+		A90A468D2571A66100045CA5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A90A46472571A06900045CA5 /* AllApples in Frameworks */,
+				A90A467A2571A4D300045CA5 /* AllApples in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A90A46612571A09500045CA5 /* AllApples in Frameworks */,
+				A90A467E2571A50900045CA5 /* AllApples in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +82,6 @@
 				A90A46302571A04D00045CA5 /* AppDelegate.swift */,
 				A90A46322571A04D00045CA5 /* SceneDelegate.swift */,
 				A90A46342571A04D00045CA5 /* ViewController.swift */,
-				A90A46362571A04D00045CA5 /* Main.storyboard */,
 				A90A46392571A04F00045CA5 /* Assets.xcassets */,
 				A90A463B2571A04F00045CA5 /* LaunchScreen.storyboard */,
 				A90A463E2571A04F00045CA5 /* Info.plist */,
@@ -95,10 +92,10 @@
 		A90A464E2571A07F00045CA5 /* AllApplesMacApp */ = {
 			isa = PBXGroup;
 			children = (
+				A90A468D2571A66100045CA5 /* main.swift */,
 				A90A464F2571A07F00045CA5 /* AppDelegate.swift */,
 				A90A46512571A07F00045CA5 /* ViewController.swift */,
 				A90A46532571A08200045CA5 /* Assets.xcassets */,
-				A90A46552571A08200045CA5 /* Main.storyboard */,
 				A90A46582571A08200045CA5 /* Info.plist */,
 				A90A46592571A08200045CA5 /* AllApplesMacApp.entitlements */,
 			);
@@ -129,7 +126,7 @@
 			);
 			name = AllApplesIosApp;
 			packageProductDependencies = (
-				A90A46462571A06900045CA5 /* AllApples */,
+				A90A46792571A4D300045CA5 /* AllApples */,
 			);
 			productName = AllApplesIosApp;
 			productReference = A90A462D2571A04D00045CA5 /* AllApplesIosApp.app */;
@@ -149,7 +146,7 @@
 			);
 			name = AllApplesMacApp;
 			packageProductDependencies = (
-				A90A46602571A09500045CA5 /* AllApples */,
+				A90A467D2571A50900045CA5 /* AllApples */,
 			);
 			productName = AllApplesMacApp;
 			productReference = A90A464D2571A07F00045CA5 /* AllApplesMacApp.app */;
@@ -182,7 +179,7 @@
 			);
 			mainGroup = A90A46242571A04D00045CA5;
 			packageReferences = (
-				A90A46452571A06900045CA5 /* XCRemoteSwiftPackageReference "allapples" */,
+				A90A46782571A4D300045CA5 /* XCRemoteSwiftPackageReference "allapples" */,
 			);
 			productRefGroup = A90A462E2571A04D00045CA5 /* Products */;
 			projectDirPath = "";
@@ -201,7 +198,6 @@
 			files = (
 				A90A463D2571A04F00045CA5 /* LaunchScreen.storyboard in Resources */,
 				A90A463A2571A04F00045CA5 /* Assets.xcassets in Resources */,
-				A90A46382571A04D00045CA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +206,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A90A46542571A08200045CA5 /* Assets.xcassets in Resources */,
-				A90A46572571A08200045CA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,34 +228,19 @@
 			files = (
 				A90A46522571A07F00045CA5 /* ViewController.swift in Sources */,
 				A90A46502571A07F00045CA5 /* AppDelegate.swift in Sources */,
+				A90A468E2571A66100045CA5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A90A46362571A04D00045CA5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A90A46372571A04D00045CA5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A90A463B2571A04F00045CA5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A90A463C2571A04F00045CA5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		A90A46552571A08200045CA5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A90A46562571A08200045CA5 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +370,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XBE2EP7T4F;
 				INFOPLIST_FILE = AllApplesIosApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -409,6 +390,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XBE2EP7T4F;
 				INFOPLIST_FILE = AllApplesIosApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -435,7 +417,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.AllApplesMacApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -458,7 +440,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.AllApplesMacApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -499,25 +481,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A90A46452571A06900045CA5 /* XCRemoteSwiftPackageReference "allapples" */ = {
+		A90A46782571A4D300045CA5 /* XCRemoteSwiftPackageReference "allapples" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mihaelamj/allapples";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A90A46462571A06900045CA5 /* AllApples */ = {
+		A90A46792571A4D300045CA5 /* AllApples */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A90A46452571A06900045CA5 /* XCRemoteSwiftPackageReference "allapples" */;
+			package = A90A46782571A4D300045CA5 /* XCRemoteSwiftPackageReference "allapples" */;
 			productName = AllApples;
 		};
-		A90A46602571A09500045CA5 /* AllApples */ = {
+		A90A467D2571A50900045CA5 /* AllApples */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A90A46452571A06900045CA5 /* XCRemoteSwiftPackageReference "allapples" */;
+			package = A90A46782571A4D300045CA5 /* XCRemoteSwiftPackageReference "allapples" */;
 			productName = AllApples;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -6,21 +6,15 @@
 //
 
 import Cocoa
+import AllApples
 
-@main
 class AppDelegate: NSObject, NSApplicationDelegate {
-
   
-
-
+  private var window: NSWindow?
+  
   func applicationDidFinishLaunching(_ aNotification: Notification) {
-    // Insert code here to initialize your application
+    window = AppSceneDelegate.makeSplitViewWindow_Mac(theVC: ViewController())
   }
-
-  func applicationWillTerminate(_ aNotification: Notification) {
-    // Insert code here to tear down your application
-  }
-
 
 }
 

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-//import AllApples
+import AllApples
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

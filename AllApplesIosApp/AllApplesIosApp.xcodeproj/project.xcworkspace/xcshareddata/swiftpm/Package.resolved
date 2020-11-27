@@ -5,9 +5,9 @@
         "package": "AllApples",
         "repositoryURL": "https://github.com/mihaelamj/allapples",
         "state": {
-          "branch": "main",
-          "revision": "d871fb3ac82ab3dfc136978b43d65d990ddf7384",
-          "version": null
+          "branch": null,
+          "revision": "562d57112042d47a206cc3e47df6ddc3434eed78",
+          "version": "0.3.0"
         }
       }
     ]

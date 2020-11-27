@@ -6,13 +6,23 @@
 //
 
 import Cocoa
+import AllApples
 
 class ViewController: NSViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-
+    let aView = view as! AView
+    aView.myColor = AColor.yellow
     // Do any additional setup after loading the view.
+  }
+  
+  override func loadView() {
+    let aView = AView(frame: NSRect(x: 0, y: 0, width: 300, height: 300))
+    aView.wantsLayer = true
+    aView.myColor = AColor.red
+    self.view = aView
+    debugPrint("View")
   }
 
   override var representedObject: Any? {
@@ -20,7 +30,6 @@ class ViewController: NSViewController {
     // Update the view, if already loaded.
     }
   }
-
 
 }
 
